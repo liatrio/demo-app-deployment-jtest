@@ -17,7 +17,7 @@ jobs:
   deploy:
     runs-on:
       - self-hosted
-      - rode-runners-prod
+      - liatrio-runners-sharedsvc
     environment: liatrio-sharedsvc
     steps:
       - name: Checkout Code
