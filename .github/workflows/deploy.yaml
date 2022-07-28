@@ -59,4 +59,4 @@ jobs:
             -f environments/${branchName}/values.yaml \
             --install demo-app-test \
             charts/demo-app \
-            -n rode-demo-app-${branchName}
+            -n jordan-dev
